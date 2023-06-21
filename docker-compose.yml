@@ -18,7 +18,7 @@ services:
      ports:
         - "4000:5000"
      volumes:
-        - ./simple-api/student_age.json:/data/student_age.json
+        - ./simple_api/student_age.json:/data/student_age.json
      networks:
         - api-pozos
 networks:
