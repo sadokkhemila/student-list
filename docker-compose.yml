@@ -5,8 +5,8 @@ services:
      deponds_on:
         - api
      environment:
-        -USERNAME=toto
-        -PASSWORD=python
+        - USERNAME=toto
+        - PASSWORD=python
      volumes:
         - ./website:/var/www/html
      ports:
